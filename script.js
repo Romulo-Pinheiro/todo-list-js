@@ -33,7 +33,7 @@ function update() {
         <td>${element[0]}</td>
         <td>${element[1]}</td> 
         <td><button class="btn btn-sm btn-primary" onclick="check(this)">Check</button></td>
-        <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td> 
+        <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Deletar</button></td> 
         </tr>`;
 	});
 	tableBody.innerHTML = str;
